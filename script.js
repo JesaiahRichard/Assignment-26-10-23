@@ -2,7 +2,7 @@ window.onload = function() {
 
     var txt = document.getElementById('text');
     var msg = document.getElementById('msg');
-    msg.style.visibility = 'hidden';
+   
 
     txt.innerHTML = 10;
     setTimeout(function() {
@@ -24,8 +24,7 @@ window.onload = function() {
                                     setTimeout(function() {
                                         txt.innerHTML = 1;
                                         setTimeout(function() {
-                                            msg.style.visibility = 'visible';
-                                            txt.style.visibility = 'hidden';
+                                            
                                             
                                         }, 1000)
                                     }, 1000)
